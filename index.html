@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAHM LIBRARY</title>
+    <style>
+        body {
+            background-color: mistyrose;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            font-size: 39px;
+            margin-bottom: 10px;
+        }
+
+        .quote {
+            width: 85%;
+            margin: 0 auto 25px auto;
+            background-color: white;
+            padding: 15px;
+            border-radius: 12px;
+            border: 2px solid pink;
+            font-style: italic;
+            color: black;
+        }
+
+        .main-layout {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            width: 95%;
+            margin: auto;
+        }
+
+        .media-area {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .photos-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid pink;
+        }
+
+        .photos-box img {
+            width: 55%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 2px solid darkblue;
+            margin: 6px;
+        }
+
+        .video-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid pink;
+        }
+
+        .audio-box{
+    background-color: white;
+    padding: 9px;
+    border-radius: 15px;
+    border: 2px solid pink;}
+
+audio {
+    width: 90%;
+}
+        video {
+            width: 90%;
+            height: 250px;
+            border-radius: 10px;
+            border: 2px solid darkblue;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid pink;
+            text-align: left;
+        }
+
+        details {
+            background-color: snow;
+            padding: 18px;
+            margin-bottom: 18px;
+            border-radius: 20px;
+            border: 15px solid pink;
+        }
+
+        summary {
+            font-weight: bold;
+            font-size: 15px;
+            color: black;
+            cursor: pointer;
+        }
+
+        mark {
+            background-color: lightblue;
+            color: black;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        a {
+            color: darkblue;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SAHM LIBRARY</h1>
+
+    <div class="quote">
+        <p>
+            "كُنت أجدُ عزائي وتَعويضي عن كل هذا بالقراءة ، مُجرد أن اقرأ كانت القراءة تنقلني الى عالم أخر الى عالم مُضاد من العالم الذي أعيش فيه، تَعطيني تعويضاً عن الخسائِر الكُبرى"...-محمود درويش-
+        </p>
+    </div>
+
+    <div class="main-layout">
+
+        <div class="media-area">
+
+            <div class="photos-box">
+                <img src="https://drop.hammel.in/ios/download/a9820848-8451-452f-a725-37f741178ae4.jpeg" alt="Photo 1">
+                <img src="https://drop.hammel.in/ios/download/b79a51b6-fc42-4128-8993-def37842bf02.jpeg" alt="Photo 2">
+            </div>
+
+            <div class="video-box">
+                <video controls>
+                    <source src="https://files.catbox.moe/rtc7l7.mov" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-box">
+                <video controls>
+                    <source src="https://files.catbox.moe/9njr0p.mov" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+<div class="sidebar">
+    <div class="audio-box"> 
+                <p style="margin: 0 0 5px 0; font-size: 12px; color: darkblue;"><strong>Background Sound:</strong></p>
+                <audio controls autoplay>
+                    <source src="https://files.catbox.moe/k24zfg.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <details>
+                <summary>Our Locations</summary>
+                <p>
+                    - Almadinah
+                </p>
+                <p>
+                    - Cairo
+                </p>
+            </details>
+
+            <details>
+                <summary>Why Sahm Library?</summary>
+                <p>
+                    - Affordable prices for everyone
+                </p>
+                <p>
+                    - Original publisher editions — no copies
+                </p>
+                <p>
+                    - A wide variety of choices
+                </p>
+            </details>
+
+            <details>
+                <summary>What Makes Us Special</summary>
+                <p>
+                    - Book borrowing available for everyone.
+                </p>
+                <p>
+                    - Books for all ages and interests, from kids to adults
+                </p>
+            </details>
+
+            <details>
+                <summary><mark>Contact Us</mark></summary>
+                <p>
+                    <strong>Email:</strong> <a href="mailto:Ssoo2410@gmail.com">Send Email</a>
+                </p>
+                <p>
+                    <strong>Instagram:</strong> <a href="https://www.instagram.com" target="_blank">ospp109</a>
+                </p>
+            </details>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
